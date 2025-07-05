@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Main Logo Elements -->
+  <g transform="translate(400, 300)">
+    <!-- Decorative Geometric Pattern - Middle Eastern Inspired -->
+    <path d="M-250,-100 L-150,-100 L-150,100 L-250,100 Z" fill="#f8f8f8" stroke="#0c4c7f" stroke-width="2"/>
+    <path d="M150,-100 L250,-100 L250,100 L150,100 Z" fill="#f8f8f8" stroke="#0c4c7f" stroke-width="2"/>
+    
+    <!-- Decorative Arabic-inspired pattern -->
+    <path d="M-230,-80 C-200,-60 -180,-90 -170,-70 C-160,-50 -190,-40 -170,-20 C-150,0 -190,20 -170,40 C-150,60 -190,80 -230,60" fill="none" stroke="#c5a47e" stroke-width="3"/>
+    <path d="M230,-80 C200,-60 180,-90 170,-70 C160,-50 190,-40 170,-20 C150,0 190,20 170,40 C150,60 190,80 230,60" fill="none" stroke="#c5a47e" stroke-width="3"/>
+    
+    <!-- Central Shield/Emblem -->
+    <path d="M-100,-80 L0,-120 L100,-80 L100,80 L0,120 L-100,80 Z" fill="#0c4c7f"/>
+    
+    <!-- Inner Shield Detail -->
+    <path d="M-80,-60 L0,-95 L80,-60 L80,60 L0,95 L-80,60 Z" fill="#ffffff"/>
+    
+    <!-- Central Emblem -->
+    <path d="M-60,-40 L0,-70 L60,-40 L60,40 L0,70 L-60,40 Z" fill="#c5a47e"/>
+    
+    <!-- Stylized Building/Tower - Representing Middle East Architecture -->
+    <path d="M-20,-30 L20,-30 L20,30 L30,30 L30,40 L-30,40 L-30,30 L-20,30 Z" fill="#0c4c7f"/>
+    <rect x="-5" y="-20" width="10" height="30" fill="#ffffff"/>
+    <path d="M-20,-30 L0,-50 L20,-30" fill="#0c4c7f"/>
+    
+    <!-- Decorative Arches - Middle Eastern Architectural Element -->
+    <path d="M-50,0 A50,50 0 0,1 50,0" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <path d="M-40,10 A40,40 0 0,1 40,10" fill="none" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#0c4c7f">AL AMAN</text>
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#0c4c7f">MIDDLE EAST GROUP</text>
+  
+  <!-- Tagline -->
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="#c5a47e">Excellence in Service</text>
+</svg>
