@@ -1,0 +1,52 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f8f8"/>
+  
+  <!-- Main logo elements -->
+  <g transform="translate(50, 100)">
+    <!-- NUKE text -->
+    <g transform="translate(0, 50)">
+      <!-- N -->
+      <path d="M 0,0 V 100 H 20 V 40 L 60,100 H 80 V 0 H 60 V 60 L 20,0 Z" fill="#222222"/>
+      <!-- U -->
+      <path d="M 90,0 V 70 C 90,90 100,102 120,102 C 140,102 150,90 150,70 V 0 H 130 V 70 C 130,80 125,85 120,85 C 115,85 110,80 110,70 V 0 Z" fill="#222222"/>
+      <!-- K -->
+      <path d="M 160,0 V 100 H 180 V 60 L 210,100 H 235 L 195,50 L 235,0 H 210 L 180,40 V 0 Z" fill="#222222"/>
+      <!-- E -->
+      <path d="M 245,0 V 100 H 305 V 80 H 265 V 60 H 295 V 40 H 265 V 20 H 305 V 0 Z" fill="#222222"/>
+    </g>
+    
+    <!-- Courier text -->
+    <text x="150" y="130" font-family="Arial, sans-serif" font-size="24" fill="#555555" text-anchor="middle">COURIER</text>
+    
+    <!-- Package icon -->
+    <g transform="translate(150, -30)">
+      <!-- Box -->
+      <rect x="-40" y="0" width="80" height="60" fill="#ff3300"/>
+      
+      <!-- Box top flap -->
+      <path d="M -40,0 L 0,-20 L 40,0 Z" fill="#ff5533"/>
+      
+      <!-- Speed lines -->
+      <path d="M 50,30 L 80,20 M 50,40 L 85,35 M 50,20 L 75,10" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g>
+    <!-- Route/path line -->
+    <path d="M 30,350 C 100,330 150,370 200,350 C 250,330 300,370 370,350" stroke="#ff3300" stroke-width="3" stroke-dasharray="10,5" fill="none"/>
+    
+    <!-- Location pin -->
+    <g transform="translate(30, 350)">
+      <path d="M 0,0 C -5,-10 -10,-15 -10,-20 C -10,-30 -5,-35 0,-35 C 5,-35 10,-30 10,-20 C 10,-15 5,-10 0,0 Z" fill="#222222"/>
+      <circle cx="0" cy="-25" r="3" fill="#ffffff"/>
+    </g>
+    
+    <!-- Destination pin -->
+    <g transform="translate(370, 350)">
+      <path d="M 0,0 C -5,-10 -10,-15 -10,-20 C -10,-30 -5,-35 0,-35 C 5,-35 10,-30 10,-20 C 10,-15 5,-10 0,0 Z" fill="#222222"/>
+      <circle cx="0" cy="-25" r="3" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>
